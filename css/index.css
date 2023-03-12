@@ -360,9 +360,10 @@ footer {
     font-size: 4rem;
     text-align: center;
   }
-  header nav {
-    display: flex;
+  .menuelemanlari {
+    display: inline flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
   .sosyal-medya {
     padding: 0;

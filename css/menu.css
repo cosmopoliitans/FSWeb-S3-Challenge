@@ -195,7 +195,7 @@ i {
 }
 
 h1 {
-  font-size: 7.5rem;
+  font-size: 6rem;
   color: rgb(225, 239, 230);
 }
 
@@ -203,21 +203,25 @@ h2 {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: rgba(0, 4, 17, 0.8);
-  font-size: 6em;
+  font-size: 5em;
   color: rgb(225, 239, 230);
+  text-align: center;
 }
 
 h3 {
-  font-size: 5rem;
-  color: rgb(225, 239, 230);
-}
-
-h4 {
   font-size: 4rem;
   color: rgb(225, 239, 230);
 }
 
-p,
+h4 {
+  font-size: 3rem;
+  color: rgb(225, 239, 230);
+}
+
+p {
+  font-size: 2rem;
+  text-align: left;
+}
 a {
   font-size: 3rem;
   color: rgb(225, 239, 230);
@@ -255,7 +259,24 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
+}
+.yemek-icecek-bolumu {
+  background-color: rgba(0, 4, 17, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.bolum {
+  display: flex;
+  flex-direction: column;
+}
+.bolum2 {
+  display: flex;
+  flex-direction: column;
+}
+.bolum3 {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* footer section */
