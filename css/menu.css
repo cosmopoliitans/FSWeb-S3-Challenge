@@ -263,6 +263,11 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+.menuelemanlari {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
 .yemek-icecek-bolumu {
   background-color: rgba(0, 4, 17, 0.8);
   display: flex;

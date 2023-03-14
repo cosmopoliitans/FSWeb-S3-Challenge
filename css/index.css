@@ -186,6 +186,11 @@ nav {
   justify-content: center;
   gap: 150px;
 }
+.menuelemanlari {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
 .sosyal-medya {
   padding-top: 20px;
   padding-bottom: 10px;
